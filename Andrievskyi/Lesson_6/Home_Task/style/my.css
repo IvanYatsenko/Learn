@@ -1,0 +1,25 @@
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background: cornflowerblue;
+}
+
+p {
+    background: chartreuse;
+}
+
+#page1p1 {
+    width: 300px;
+    text-align: center;
+}
+
+.page2p2 {
+    background: cyan;
+}
+
+body.fon {
+    background: purple;
+}
