@@ -1,0 +1,25 @@
+img[title] {
+    width: 200px;
+}
+
+img[title="BMP"] {
+    height: 300px;
+}
+
+img[title="Camera"] {
+    background: hotpink;
+}
+
+img[title="CSS"] {
+    width: 300px;
+}
+
+a[href="https://ya.ru"] {
+background: indigo;
+font-size: 45px;
+}
+
+a[href="https://rambler.ru"] {
+color: lavender;
+font-size: 30px;
+}
