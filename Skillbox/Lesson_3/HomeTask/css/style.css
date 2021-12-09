@@ -21,3 +21,18 @@ img {
 body {
 	font-family: 'font', sans-serif;
 }
+.main-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-height: 100vh;
+
+  color: #fff;
+
+  background-color: #070217;
+}
