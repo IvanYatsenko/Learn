@@ -3,27 +3,35 @@ a:hover {
 }
 
 a:active {
-    font-size: 20px;
+    color: skyblue;
 }
 
-p:first-letter {
-    font-size: 30px;
-    color: red;
+a:visited {
+    color: slateblue;
+}
+
+a:link {
+    color: thistle;
+}
+
+.h:first-letter {
+color: tomato;
+font-size: 24px;
+}
+
+p.textOfI::first-line {
+    font-style: italic;
+}
+
+.beforAndAfterInsertSymbols::before{
+    content: "\21D2";
+}
+
+.beforAndAfterInsertSymbols::after{
+    content: "\260E";
 }
 
 ::selection {
-    color: salmon;
-    background: skyblue;
-}
-
-input:focus {
-    background: purple;
-    border-radius: 20px;
-    border-color: red;
-}
-.test:before {
-    content: "Hello!!! ";
-}
-.test:after {
-    content: "Good Bye!";
+    background: black;
+    color: gainsboro;
 }
