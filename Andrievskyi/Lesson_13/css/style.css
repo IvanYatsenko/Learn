@@ -1,3 +1,29 @@
 body {
     padding: 20px;
 }
+
+h1 {
+    text-shadow: -3px 5px 3px #999;
+    text-align: center;
+}
+
+p {
+    line-height: 150%;
+    border: 1px solid #987;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+h2::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    padding: 4px;
+}
+
+ol {
+    list-style-type: square;
+    list-style-position: inside;
+    border: 1px solid #987;
+}
