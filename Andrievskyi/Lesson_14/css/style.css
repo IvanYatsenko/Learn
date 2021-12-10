@@ -1,3 +1,13 @@
 body {
     padding: 20px;
 }
+p.test1 {
+    padding: 10px;
+    border: 1px solid #f53;
+    margin: 20px;
+}
+
+p.test2 {
+    border: 1px solid #f53;
+    padding: 10px 15px 25px 2px;
+}
