@@ -1,0 +1,40 @@
+body{
+	padding: 20px;
+}
+
+div {
+	box-sizing: content-box;
+	float: left;
+}
+
+div.header {
+	width: 100%;
+	background: lightcoral;
+	min-height: 150px;
+}
+
+div.block1 {
+	width: 65%;
+	background: cornflowerblue;
+	min-height: 550px;
+}
+
+div.block2 {
+	width: 35%;
+	background: steelblue;
+	min-height: 550px;
+}
+
+div.blocks {
+	border: 1px solid black;
+	width: 33.3%;
+	background: blue;
+	min-height: 350px;
+	box-sizing: border-box;
+}
+div.footer {
+	width: 100%;
+	background: burlywood ;
+	min-height: 150px;
+	margin-bottom: 20px;
+}
