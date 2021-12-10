@@ -8,6 +8,18 @@ p.test1 {
 p.test2 {
     border: 1px solid #f53;
     background: steelblue;
-    border-radius: 5px/5px;
+    border-radius: 40px/20px;
     padding: 5px;
+    width: 50em;
+    min-height: 600px;
+    overflow: auto;
+}
+
+
+h2 {
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #888;
+    box-sizing: border-box;
 }
