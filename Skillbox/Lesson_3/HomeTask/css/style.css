@@ -48,14 +48,12 @@ body {
 }
 
 .container h1 {
+  margin: 0;
   margin-bottom: 40px;
 }
 
-.container h1, h2, h3, p, figure, ul {
-  margin: 0;
-}
-
 .container figure {
+  margin: 0;
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
@@ -70,34 +68,30 @@ body {
 }
 
 .container h2, h3 {
+  margin: 0;
   margin-bottom: 10px;
 }
 
 .container p {
+  margin: 0;
   margin-bottom: 40px;
   width: 872;
 }
 
 .container ul {
+  margin: 0;
   padding-left: 15px;
 }
 
-.container li {
+.container li:not(:last-child) {
   margin-bottom: 20px;
 }
-.container li:last-child {
-  margin: 0;
-}
 
-.content-footer {
+.content-footer:not(:last-child) {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom: 40px;
-}
-
-.content-footer:last-child {
-  margin: 0;
 }
 
 .content-footer p {
