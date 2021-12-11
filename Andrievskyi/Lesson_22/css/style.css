@@ -130,32 +130,37 @@ footer {
 footer a {
 	color: white;	
 }
-.sidebar1{
-	float: 	left;
-	width: 20%;
+
+.sidebar1 {
 	padding: 0 20px 0 12px;
-}
-.main{
 	float: left;
-	width: 60%;
-	padding: 0 20px 0 20px;
-	border-left:dashed	1px rgb(140, 140, 150);
-	border-right:dashed	1px rgb(140, 140, 150);
-}
-.sidebar2{
-	float: right;
 	width: 20%;
-	padding: 0 20px 0 12px;
 }
 
-footer{
+.main {
+	padding: 0 20px;
+	float: left;
+	width: 60%;
+	border-left: dashed 1px rgb(140, 140, 150);
+	border-right: dashed 1px rgb(140, 140, 150);
+}
+
+.sidebar2 {
+	padding: 0 20px 0 12px;
+	float: right;
+	width: 20%;
+}
+
+footer {
 	clear: both;
 }
-nav ul, header h1, footer p{
+
+nav ul, header h1, footer p {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.content-wrapper{
+
+.content_wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
 }
