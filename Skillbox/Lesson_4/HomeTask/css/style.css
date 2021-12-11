@@ -21,6 +21,10 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
+figure {
+  font-size: 0
+}
+
 /*  style index.html */
 
 .main-content {
@@ -168,10 +172,19 @@ body {
 }
 
 .figure {
-  font-size: 0;
   display: inline-block;
+  margin: 0;
   margin-bottom: 40px;
   width: 872px;
+}
+
+.image-commit {
+  padding: 19px 0;
+  border: 1px solid #b6b6b6;
+  border-top: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
 
 #end {
