@@ -1,0 +1,5 @@
+.border {
+    width: 300px;
+    height: 300px;
+    box-shadow: 15px 15px 1000px #000;
+}
