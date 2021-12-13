@@ -200,3 +200,55 @@ figure {
   font-weight: 400;
   text-align: center;
 }
+
+/* style modules.html */
+
+.header {
+  margin-bottom: 25px;
+}
+
+.svg-back {
+  margin: 0;
+  margin-right: 7px;
+}
+
+.article {
+margin: 0;
+margin-bottom: 50px;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+color: #3F2AFF;
+}
+
+.nav {
+  margin-bottom: 25px;
+}
+
+.link-back {
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #3F2AFF;
+}
+
+.sections {
+  list-style-type: none;
+  margin: 0;
+padding: 0;
+}
+
+.section {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 505px;
+  width: 45%;
+}
+
+.more a{
+  display: inline-block;
+  padding: 24px 49px;
+}
