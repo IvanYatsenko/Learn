@@ -78,6 +78,7 @@ figure {
   margin: 0 auto;
   padding: 80px 0;
   width: 1170px;
+  background-color: E5E5E5;
 }
 
 .main-title {
@@ -205,6 +206,19 @@ figure {
 
 .header {
   margin-bottom: 25px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.svg-skillbox {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.nav {
+  margin-bottom: 25px;
 }
 
 .svg-back {
@@ -213,42 +227,114 @@ figure {
 }
 
 .article {
-margin: 0;
-margin-bottom: 50px;
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-color: #3F2AFF;
-}
-
-.nav {
-  margin-bottom: 25px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: #3F2AFF;
 }
 
 .link-back {
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-color: #3F2AFF;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #3F2AFF;
 }
 
 .sections {
+  box-sizing: inherit;
   list-style-type: none;
   margin: 0;
-padding: 0;
+  padding: 0;
+}
+
+.box-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box1 {
+  background-image: url("../img/box1.jpg");
+}
+
+.box2 {
+  background-image: url("../img/box2.jpg");
+}
+
+.box3 {
+  background-image: url("../img/box3.jpg");
+}
+
+.box4 {
+  background-image: url("../img/box4.jpg");
+}
+
+.numb-box {
+  position: relative;
+  bottom: -230px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: right;
+  color: #EAEAEA;
 }
 
 .section {
-list-style-type: none;
+  box-sizing: border-box;
+  float: left;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:contain ;
   margin: 0;
-  padding: 0;
+  margin-bottom: 25px;
+  padding: 25px;
+  padding-top: 205px;
   height: 505px;
-  width: 45%;
+  width: 572px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  line-height: 40px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.more a{
+.section:nth-child(odd) {
+  margin-right: 25px;
+}
+
+.header-item {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3F2AFF;
+}
+
+.content-item {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333333;
+}
+
+.more {
+  text-align: center;
+}
+
+.link-more {
   display: inline-block;
   padding: 24px 49px;
+  border: 2px solid;
+  color: #3f2aff;
+  font-weight: 700;
+  font-size: 18px;
 }
+
