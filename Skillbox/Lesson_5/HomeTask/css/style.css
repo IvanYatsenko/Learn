@@ -78,7 +78,6 @@ figure {
   margin: 0 auto;
   padding: 80px 0;
   width: 1170px;
-  background-color: E5E5E5;
 }
 
 .main-title {
@@ -207,8 +206,6 @@ figure {
 .header {
   margin-bottom: 25px;
   font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
 }
 
@@ -230,7 +227,6 @@ figure {
   margin: 0;
   margin-bottom: 50px;
   font-family: Arial;
-  font-style: normal;
   font-weight: bold;
   font-size: 60px;
   color: #3F2AFF;
@@ -238,17 +234,8 @@ figure {
 
 .link-back {
   font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   color: #3F2AFF;
-}
-
-.sections {
-  box-sizing: inherit;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .box-items {
@@ -277,31 +264,20 @@ figure {
   position: relative;
   bottom: -230px;
   font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
   font-size: 40px;
   text-align: right;
   color: #EAEAEA;
 }
 
 .section {
-  box-sizing: border-box;
   float: left;
-  background-position: center top;
   background-repeat: no-repeat;
-  background-size:contain ;
-  margin: 0;
   margin-bottom: 25px;
   padding: 25px;
   padding-top: 205px;
   height: 505px;
   width: 572px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  line-height: 40px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
 }
 
 .section:nth-child(odd) {
@@ -310,7 +286,6 @@ figure {
 
 .header-item {
   font-family: Arial;
-  font-style: normal;
   font-weight: bold;
   font-size: 40px;
   color: #3F2AFF;
@@ -318,8 +293,6 @@ figure {
 
 .content-item {
   font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 165%;
   color: #333333;
