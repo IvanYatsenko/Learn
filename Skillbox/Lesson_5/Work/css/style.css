@@ -1,5 +1,35 @@
-.border {
-    width: 300px;
-    height: 300px;
-    box-shadow: 15px 15px 1000px #000;
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller Thin DEMO'), local('MullerThinDEMO'),
+    url('../fonts/MullerThinDEMO.woff2') format('woff2'),
+     url('../fonts/MullerThinDEMO.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: local('Muller ExtraBold DEMO'), local('MullerExtraBoldDEMO'), 
+    url('../fonts/MullerExtraBoldDEMO.woff2') format('woff2'),
+    url('../fonts/MullerExtraBoldDEMO.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Muller', sans-serif;
+}
+
+.content {
+    font-weight: 800;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.content h1 {
+    font-weight: 100;
 }
