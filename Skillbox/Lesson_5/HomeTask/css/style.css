@@ -209,7 +209,7 @@ ul {
 /* style modules.html */
 
 .container-title {
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 50px;
   font-family: Arial;
   font-weight: bold;
@@ -219,19 +219,23 @@ ul {
 
 .container-sections {
   margin: 0;
-  padding: 0;
   margin-bottom: 50px;
 }
 
-.section-boxs {
-
+.section-box {
   margin: 0;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  padding: 205px 25px 25px 25px;
   display: inline-block;
+  vertical-align: text-top;
   box-sizing: border-box;
-  width: 572px;
+  width: 550px;
   height: 505px;
-  margin: 0;
-  padding: 0;
+  background-repeat: no-repeat;
+  background-position: top center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
 }
 
 .box1 {
@@ -249,7 +253,32 @@ ul {
 .box4 {
   background-image: url("../img/box4.jpg");
 }
-/*
+
+.numb-box {
+  position: relative;
+  bottom: 25px;
+  font-family: Arial;
+  font-size: 40px;
+  text-align: right;
+  color: #EAEAEA;
+}
+
+.box-name {
+  margin: 0;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3F2AFF;
+}
+
+.box-text {
+  margin: 0;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333333;
+}
+
 .more {
   text-align: center;
 }
@@ -269,98 +298,6 @@ ul {
 
 
 
-
-
-/* .header {
-  margin-bottom: 25px;
-  font-family: Arial;
-  font-size: 20px;
-}
-
-.svg-skillbox {
-  margin: 0;
-  margin-bottom: 25px;
-}
-
-.svg-back {
-  margin: 0;
-  margin-right: 7px;
-}
-
-.article {
-
-}
-
-
-
-.box-items {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-
-
-.numb-box {
-  position: relative;
-  bottom: -230px;
-  font-family: Arial;
-  font-size: 40px;
-  text-align: right;
-  color: #EAEAEA;
-}
-
-.section {
-  float: left;
-  background-repeat: no-repeat;
-  margin-bottom: 25px;
-  padding: 25px;
-  padding-top: 205px;
-  height: 505px;
-  width: 50%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.section:nth-child(odd) {
-}
-
-.section:last-child {
-  margin-bottom: 50px;
-}
-
-.header-item {
-  font-family: Arial;
-  font-weight: bold;
-  font-size: 40px;
-  color: #3F2AFF;
-}
-
-.content-item {
-  font-family: Arial;
-  font-size: 20px;
-  line-height: 165%;
-  color: #333333;
-}
-
-
-
-liblock {
-  display: inline-block;
-  margin: 0;
-}
-.ulist {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: inline-block;
-} */
-
-
-
-
-
-
-
  .link-logo {
   display: block;
   margin-bottom: 25px;
@@ -374,5 +311,3 @@ liblock {
   font-size: 20px;
   color: #3F2AFF;
 }
-/*
- */
