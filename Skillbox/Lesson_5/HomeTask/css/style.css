@@ -223,9 +223,8 @@ ul {
 }
 
 .section-box {
-  margin: 0;
-  margin-bottom: 25px;
-  margin-right: 25px;
+  position: relative;
+  margin: 0 25px 25px 0;
   padding: 205px 25px 25px 25px;
   display: inline-block;
   vertical-align: text-top;
@@ -255,8 +254,9 @@ ul {
 }
 
 .numb-box {
-  position: relative;
+  position: absolute;
   bottom: 25px;
+  right: 25px;
   font-family: Arial;
   font-size: 40px;
   text-align: right;
@@ -272,8 +272,6 @@ ul {
 }
 
 .box-text {
-  margin: 0;
-  font-family: Arial;
   font-size: 20px;
   line-height: 165%;
   color: #333333;
