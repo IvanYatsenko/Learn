@@ -28,6 +28,7 @@ p {
 .header {
     padding-top: 100px;
     padding-bottom: 225px;
+    margin-bottom: 109px;
     background: rgba(71,61,95,1);
     background: -moz-linear-gradient(-45deg, rgba(71,61,95,1) 0%, rgba(42,34,64,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,61,95,1)), color-stop(100%, rgba(42,34,64,1)));
