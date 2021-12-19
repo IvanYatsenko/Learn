@@ -5,49 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lionic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container flex header-container">
             <a href="#" class="header-logo">
                 <img src="img/logo.svg" class="header-logo" alt="logo">
             </a>
             <nav class="header-nav">
-                <ui class="header-list">
-                    <li class="header-list">
+                <ui class="header-list list-reset flex">
+                    <li class="header-list-item">
                         <a href="#" class="headerlink">
                             Home
                         </a>
                     </li>
-                    <li class="header-list">
+                    <li class="header-list-item">
                         <a href="#services" class="headerlink">
                             Services
                         </a>
                     </li>
-                    <li class="header-list">
+                    <li class="header-list-item">
                         <a href="#articles" class="headerlink">
                             Articles
                         </a>
                     </li>
-                    <li class="header-list">
+                    <li class="header-list-item">
                         <a href="#clients" class="headerlink">
                             Clients
                         </a>
                     </li>
-                    <li class="header-list">
+                    <li class="header-list-item">
                         <a href="#contacts" class="headerlink">
                             Contacts
                         </a>
                     </li>
-                    <li class="header-list">
+                    <li class="header-list-item">
                         <a href="#join-us" class="headerlink">
                             Join us
                         </a>
                     </li>
                 </ui>
             </nav>
-            <button class="btn  header-btn">
+            <button class="btn btn-reset  header-btn">
                 Free trial!
             </button>
         </div>
@@ -56,7 +58,7 @@
     <main class="main">
         <section id="hero" class="hero">
             <div class="container">
-                <div class="hero-content">
+                <div class="hero-content flex">
                     <h1 class="hero-title">
                         This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
                     </h1>
@@ -65,7 +67,7 @@
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                     ut&nbsp;laoreet dolore.
                 </p>
-                <button class="btn hero-btn">
+                <button class="btn btn-reset hero-btn">
                     FREE 30&nbsp;DAY TRIAL
                 </button>
                 <span class="hero-secure">
@@ -73,7 +75,7 @@
                 </span>
             </div>
         </section>
-        <section id="services" class="services">
+        <section id="services" class="services section-offset">
             <div class="container">
                 <h2 class="section-title services-title">
                     Services
@@ -81,8 +83,8 @@
                 <p class="section-descr services-descr">
                     Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
                 </p>
-                <ul class="services-items">
-                    <li class="services-item">
+                <ul class="services-items list-reset flex">
+                    <li class="services-item flex">
                         <svg class="services-item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -96,7 +98,7 @@
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                         </p>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="services-item-icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -110,7 +112,7 @@
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                         </p>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="services-item-icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -124,7 +126,7 @@
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                         </p>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="services-item-icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -141,13 +143,13 @@
                 </ul>
             </div>
         </section>
-        <section id="articles" class="article">
+        <section id="articles" class="article section-offset">
             <div class="container">
                 <h2 class="section-title articles-title">
                     Articles
                 </h2>
-            </div>
-            <ul class="articles-list">
+
+            <ul class="articles-list list-reset">
                 <li class="articles-item">
                     <article class="blog-preview">
                         <img src="img/blog-1.jpg" alt="Blog photo 1" class="blog-preview-img">
@@ -213,79 +215,85 @@
                     </article>
                 </li>
             </ul>
+            </div>
         </section>
-        <section id="clients" class="contacts">
-            <h2 class="section-title clients-title">
-                Clients
-            </h2>
-            <ul class="clients-list">
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
-                        consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan
-                        et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-1.jpg" alt="John Armstrong">
-                        </div>
-                        <div class="clients-text">
-                            <div class="clients-name">
-                                John Armstrong
+        <section id="clients" class="clients section-offset">
+            <div class="container">
+                <h2 class="section-title clients-title">
+                    Clients
+                </h2>
+                <ul class="clients-list list-reset">
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
+                            consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros
+                            et&nbsp;accumsan
+                            et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-1.jpg" alt="John Armstrong">
                             </div>
-                            <span class="clients-post">
-                                Customer
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
-                        consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan
-                        et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-2.jpg" alt="Elizabeth Martin">
-                        </div>
-                        <div class="clients-text">
-                            <div class="clients-name">
-                                Elizabeth Martin
+                            <div class="clients-text">
+                                <div class="clients-name">
+                                    John Armstrong
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
                             </div>
-                            <span class="clients-post">
-                                Customer
-                            </span>
                         </div>
-                    </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
-                        consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan
-                        et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
-                    </p>
-                    <div class="clients-user">
-                        <div class="clients-avatar">
-                            <img src="img/client-3.jpg" alt="Robin Soutby">
-                        </div>
-                        <div class="clients-text">
-                            <div class="clients-name">
-                                Robin Soutby
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
+                            consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros
+                            et&nbsp;accumsan
+                            et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-2.jpg" alt="Elizabeth Martin">
                             </div>
-                            <span class="clients-post">
-                                Customer
-                            </span>
+                            <div class="clients-text">
+                                <div class="clients-name">
+                                    Elizabeth Martin
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie
+                            consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros
+                            et&nbsp;accumsan
+                            et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                        </p>
+                        <div class="clients-user">
+                            <div class="clients-avatar">
+                                <img src="img/client-3.jpg" alt="Robin Soutby">
+                            </div>
+                            <div class="clients-text">
+                                <div class="clients-name">
+                                    Robin Soutby
+                                </div>
+                                <span class="clients-post">
+                                    Customer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section id="contacts" class="contacts">
+        <section id="contacts" class="contacts section-offset">
             <div class="container">
                 <h2 class="section-title contacts-title">
                     <address class="contacts-address">
-                        <ul class="contacts-list">
+                        <ul class="contacts-list list-reset">
                             <li class="contacts-item">
                                 <strong class="contacts-item-caption">
                                     Visit Us
@@ -338,7 +346,7 @@
             </div>
             <div class="footer-right">
                 <nav class="footer-nav">
-                    <ul class="footer-list">
+                    <ul class="footer-list list-reset">
                         <li class="footer-item">
                             <a href="#" target="_blank" class="footer-link">About Us</a>
                         </li>
@@ -353,7 +361,7 @@
                         </li>
                     </ul>
                 </nav>
-                <ul class="social">
+                <ul class="social list-reset">
                     <li class="social-item"><a href="#" class="social-link social-link-tw"></a></li>
                     <li class="social-item"><a href="#" class="social-link social-link-linkedin"></a></li>
                     <li class="social-item"><a href="#" class="social-link social-link-mail"></a></li>
