@@ -1,0 +1,18 @@
+.example-block {
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    border: 3px solid #000;
+
+   
+}
+
+.example-string {
+    font-size: 30px;
+}
+
+.example-image {
+    border: 3px solid #000;
+    border-radius: 20% 50% 5% 10%;
+    box-shadow: 5px 5px 30px 15px #000;
+    overflow: hidden ;
+}
