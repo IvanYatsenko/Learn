@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+color: #445161;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+}
+
+h2 {
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.text {
+    color: #333;
+    line-height: 25px;
+}
+.bold {
+    color: #333;
+    font-weight: 700;
+}
+.red {
+    color: #f00;
+}
