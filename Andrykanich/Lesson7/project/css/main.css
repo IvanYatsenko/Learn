@@ -1,0 +1,9 @@
+.exampleblock {
+    border: 1px solid red;
+    padding: 20px 30px 50px 10px;
+}
+
+.examplestring {
+    border: 1px solid red;
+    margin: 40px;
+}
