@@ -1,6 +1,5 @@
 
-
-var location1 = randomLoc;
+var location1 = Math.floor(Math.random() * 5);
 var location2 = location1 + 1;
 var location3 = location2 + 1;
 
