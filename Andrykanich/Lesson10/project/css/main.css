@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
     padding: 30px;
@@ -52,4 +53,16 @@ body{
 .list li {
     font-size: 18px;
     margin-bottom: 15px;
+=======
+.example-block {
+   
+}
+
+.example-string {
+
+}
+
+.example-image {
+
+>>>>>>> 4d27f8228f539915965326314ce2ac27e15d938d
 }
