@@ -1,18 +1,55 @@
-.example-block {
-    font-size: 30px;
-    margin: 0 0 30px 0;
-    border: 3px solid #000;
 
-   
+body{
+    padding: 30px;
 }
 
-.example-string {
-    font-size: 30px;
+.block {
+    margin-bottom: 30px;
 }
 
-.example-image {
-    border: 3px solid #000;
-    border-radius: 20% 50% 5% 10%;
-    box-shadow: 5px 5px 30px 15px #000;
-    overflow: hidden ;
+.block p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.block:hover {
+    background-color: skyblue;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
+
+.textinput {
+    border: 1px solid #666;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.textbtn {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #666;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.list {
+
+}
+
+.list li {
+    font-size: 18px;
+    margin-bottom: 15px;
 }
