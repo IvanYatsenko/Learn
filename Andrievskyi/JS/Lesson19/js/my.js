@@ -56,3 +56,40 @@ var model = {
         return true
     }
 }
+
+var controller = {
+    guesses: 0,
+
+    processGuess: function(guess) {
+        var location = parseGuess(guess)
+        if(location) {
+            this.guesses++
+            var hit = model.fire(location)
+
+            if(hit && model.shipSunk === model.numShips) {
+                view.displayMessage('YOU WIN!!!' + 'Battleships sank of ' + this.guesses + 'guess!')
+            }
+        }
+    }
+}
+
+function parseGuess(guess) {
+    var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+    if(guess === null || guess.length !== 2) {
+        alert('Not comfort coordinate!')
+    } else {
+        firstChar = guess.charAt(0)
+        var row = alphabet.indexOf(firstChar)
+        var column = guess.charAt(1)
+        
+        if(isNaN(row) || isNaN(column)){
+            alert('Not comfort coordinate!')
+        } else if(row < 0 || row >= model.boadrSize || column < 0 || column >= model.boadrSize) {
+            alert('Not comfort coordinate!')
+        } else {
+            return row + column
+        }
+    }
+    return null
+}

@@ -56,3 +56,39 @@ var model = {
         return true
     }
 }
+
+var controller = {
+    guesses: 0,
+
+    processGuess: function(guess) {
+
+    }
+}
+
+function parseGuess(guess) {
+    var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+    if(guess === null || guess.length !== 2) {
+        alert('Not comfort coordinate!')
+    } else {
+        firstChar = guess.charAt(0)
+        var row = alphabet.indexOf(firstChar)
+        var column = guess.charAt(1)
+        
+        if(isNaN(row) || isNaN(column)){
+            alert('Not comfort coordinate!')
+        } else if(row < 0 || row >= model.boadrSize || column < 0 || column >= model.boadrSize) {
+            alert('Not comfort coordinate!')
+        } else {
+            return row + column
+        }
+    }
+    return null
+}
+
+console.log(parseGuess('A0'))
+console.log(parseGuess('B6'))
+console.log(parseGuess('G#'))
+console.log(parseGuess('G3'))
+console.log(parseGuess('A7'))
+console.log(parseGuess('H0'))
