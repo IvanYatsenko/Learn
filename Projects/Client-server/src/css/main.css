@@ -1,0 +1,33 @@
+
+body {
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  padding: 3px;
+}
+
+.list {
+  list-style: none;
+}
+
+.item__list {
+  transition: color .3s;
+}
+
+.item__list:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.link_back {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}

@@ -1,0 +1,81 @@
+input:hover {
+ cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.main {
+    display: block;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.app {
+    display: block;
+    text-align: center;
+}
+
+.game {
+    margin: 0 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    color: deeppink;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    transition: transform .3s;
+}
+
+.card_win {
+  background-color: deeppink;
+  pointer-events: none;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: darksalmon;
+}
+
+.card_check {
+    pointer-events: none;
+    transform: none;
+    z-index: 3;
+}
+
+.btn {
+  width: 250px;
+  padding: 15px;
+  background-color: bisque;
+}
+
+.btn:hover {
+  background-color: darksalmon;
+}
+
+.hide {
+  display: none;
+}

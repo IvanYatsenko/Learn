@@ -1,0 +1,383 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    margin: auto 50px;
+
+  }
+
+  .nav__button-burger{
+    display: block;
+  }
+
+  .nav__burger {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 80px;
+    width: 400px;
+    height: 768px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .nav__burger-btn-close {
+    margin-bottom: 100px;
+  }
+
+  .nav__burger-link:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+
+  .nav__links-item {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 80px;
+  }
+
+  .header__container {
+    padding: 160px 77px 30px 77px;
+  }
+
+  .header__title {
+    max-width: none;
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .header__subtext {
+    max-width: 660px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about__more {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+
+  .working__btn {
+    margin-bottom: 20px;
+  }
+
+  .more {
+    height: 640px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .advantage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+
+  .working__step-img {
+    background-size: cover;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo {
+    width: 150px;
+    height: 48px;
+  }
+
+  .header__container {
+    padding: 60px 40px 30px 40px;
+  }
+
+  .nav__burger {
+    padding-top: 20px;
+  }
+
+  .nav__burger {
+    height: 730px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .header__title {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .header__subtext {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .advantage-item-icon-1 {
+    background-position: 40px 68px;
+    background-size: 115px;
+  }
+
+  .advantage-item-icon-2 {
+    background-position: 40px 68px;
+    background-size: 115px;
+  }
+
+  .advantage-item {
+    padding: 35px 48px 35px 170px;
+  }
+
+
+  .working__step {
+    width: auto;
+  }
+
+  .working__slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .working__step-img {
+    width: 100%;
+    height: 284px;
+    margin-bottom: 38px;
+  }
+
+  .working__links-item {
+    margin: 0;
+  }
+
+  .working__links-item:not(:last-child) {
+    margin: 0;
+  }
+
+  .working__links {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .footer__form {
+    margin-bottom: 50px;
+  }
+
+  .footer-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  h2 {
+    font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .btn {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px
+  }
+
+  .logo {
+    width: 110px;
+    height: 35px;
+  }
+
+  .container {
+    margin: auto 15px;
+  }
+
+  .header__container {
+    padding: 60px 21px;
+    text-align: center;
+  }
+
+  .swiper {
+    height: 320px;
+  }
+
+  .nav__burger {
+    width: 320px;
+    height: 327px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px
+  }
+
+  .nav__burger {
+    padding-left: 20px;
+  }
+
+  .nav__burger-link:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .nav__burger-btn-close {
+    margin-bottom: 30px;
+  }
+
+
+  .header__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .header__subtext {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .header__btn {
+    width: 162px;
+    height: 40px;
+  }
+
+  .working {
+    margin-bottom: 40px;
+  }
+
+  .working__btn {
+    width: 162px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .working__link-doc {
+    width: 118px;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px
+  }
+
+  .about__text {
+    margin-bottom: 250px;
+  }
+
+  .more {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 200px;
+    background-image: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .more::before {
+    content: none;
+  }
+
+  .more__btn {
+    margin: 0;
+    padding: 0;
+    width: 162px;
+    height: 40px;
+    color: var(--orange-color);
+  }
+
+  .more__text {
+    padding: 0;
+    margin: 0;
+    color: var(--link-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .more::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/about/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -200px;
+  }
+
+  .advantage-item {
+    padding: 60px 0 0 0;
+    border: none;
+  }
+
+  .advantage-item-icon-1 {
+    background-position:  0px 0px;
+    background-size: 64px;
+  }
+
+
+  .advantage-item-icon-2 {
+    background-position:  0px 0px;
+    background-size: 64px;
+  }
+
+  .faq__link-text {
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+  }
+
+}
