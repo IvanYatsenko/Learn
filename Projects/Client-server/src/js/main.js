@@ -1,5 +1,5 @@
 
-(function() {
+(function () {
 
   async function fetchData(urlStr) {
     let
@@ -23,14 +23,14 @@
     let data = await fetchData(urlStr);
 
     const
-     currentPage = data.meta.pagination.page,
-     countOfPage = data.meta.pagination.pages;
+      currentPage = data.meta.pagination.page,
+      countOfPage = data.meta.pagination.pages;
     titleElement.textContent = `Page is ${currentPage} of ${countOfPage}`;
 
-    for(let i = 1; (countOfPage + 1) > i; i++) {
+    for (let i = 1; (countOfPage + 1) > i; i++) {
       const linkPageElement = document.createElement('a');
       linkPageElement.href = "#";
-      linkPageElement.addEventListener('click', function(e) {
+      linkPageElement.addEventListener('click', () => {
         createApp(i);
       });
       linkPageElement.classList.add('link');
@@ -42,9 +42,9 @@
     data.data.forEach(item => {
       const itemElement = document.createElement('li');
       itemElement.setAttribute('data-id', `${item.id}`);
-      itemElement.classList.add('item__list')
+      itemElement.classList.add('item__list');
       itemElement.textContent = item.title;
-      itemElement.addEventListener('click', function(event) {
+      itemElement.addEventListener('click', function (event) {
         document.location.href = `page.html?${event.target.dataset.id}`;
       });
       listElement.append(itemElement);
@@ -63,26 +63,26 @@
       textElement = document.querySelector(`[data-content="text"]`),
       listComments = document.querySelector(`[data-content="comments"]`);
 
-      titleElement.textContent = data.data.title;
-      textElement.textContent = data.data.body;
+    titleElement.textContent = data.data.title;
+    textElement.textContent = data.data.body;
 
-    let urlStrComments = `https://gorest.co.in/public-api/comments?post_id=${id}`
-    let comments = await fetchData(urlStrComments)
+    let urlStrComments = `https://gorest.co.in/public-api/comments?post_id=${id}`;
+    let comments = await fetchData(urlStrComments);
 
     comments.data.forEach(comment => {
       const
         commentElement = document.createElement('li'),
         titleCommentElement = document.createElement('h4'),
         textCommentElement = document.createElement('p');
-      titleCommentElement.textContent = `${comment.name} (${comment.email})`
-      textCommentElement.textContent = comment.body
-      commentElement.append(titleCommentElement)
-      commentElement.append(textCommentElement)
-      listComments.append(commentElement)
-    })
+      titleCommentElement.textContent = `${comment.name} (${comment.email})`;
+      textCommentElement.textContent = comment.body;
+      commentElement.append(titleCommentElement);
+      commentElement.append(textCommentElement);
+      listComments.append(commentElement);
+    });
 
-    console.log(comments)
-  };
+    console.log(comments);
+  }
 
   window.createApp = createApp;
   window.createArticle = createArticle;
